@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "dependencies": {
+    "@react-hook/window-size": "^3.1.1",
+    "@types/node": "20.3.3",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "css-doodle": "^0.37.2",
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.7",
+    "gsap": "^3.12.2",
+    "nanoid": "^4.0.2",
+    "next": "13.4.7",
+    "normalize.css": "^8.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-type-animation": "^3.1.0",
+    "typescript": "5.1.6"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier . --write"
+  },
+  "devDependencies": {
+    "@types/gsap": "^3.0.0",
+    "classnames": "^2.3.2",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.0",
+    "sass": "^1.63.6"
+  },
+  "homepage": "https://teplostanski.dev/"
+}

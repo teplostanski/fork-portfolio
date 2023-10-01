@@ -1,0 +1,117 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 35px;
+  padding: 0 0 60px 0;
+}
+
+.title {
+  margin: 80px 0 22px;
+  text-transform: uppercase;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid;
+  width: 410px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 400px;
+  border: 1px solid;
+}
+
+.name {
+  text-transform: uppercase;
+}
+
+.description {
+  text-transform: uppercase;
+  line-height: 1.6rem;
+  letter-spacing: 0.2px;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.link {
+  text-transform: uppercase;
+  border: 1px solid;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.stack {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.item {
+  background: #000;
+  color: white;
+  padding: 5px 5px 3px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 524px) {
+  .card {
+    width: 100%;
+    padding: 25px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 14px;
+    line-height: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .wrapper {
+    margin: 0 25px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+  .title {
+    font-size: 20px;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+}

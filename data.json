@@ -1,0 +1,132 @@
+{
+  "projects": {
+    "jobs": [
+      {
+        "name": "Шифровальная машина",
+        "stack": ["React", "MobX", "SCSS"],
+        "partake": "Совместный",
+        "desc": "Шифровальная машина - это онлайн сервис шифрования текстовых сообщений. Разработан выпускниками Яндекс.Практикума",
+        "preview": "https://github.com/encryption-machine/Front/raw/master/src/assets/images/screenshot.png",
+        "website": "http://shifmachine.acceleratorpracticum.ru/",
+        "source": "https://github.com/encryption-machine/Front"
+      },
+      {
+        "name": "TechnoCats Team blog",
+        "stack": [
+          "React",
+          "Astro.js",
+          "SSR",
+          "CSS",
+          "HTML",
+          "FireBase",
+          "CSS",
+          "HTML",
+          "FireBase"
+        ],
+        "partake": "Совместный",
+        "desc": "Командная работа из 6 человек над созданием сайта блога написанного на Astro",
+        "preview": "https://raw.githubusercontent.com/teplostanski/technocats-team-blog/main/src/assets/screenshot.png",
+        "website": "https://technocats-team.teplostanski.dev/",
+        "source": "https://github.com/teplostanski/technocats-team-blog"
+      },
+      {
+        "name": "Movies Explorer",
+        "stack": ["HTML", "CSS", "BEM", "Adaptive", "React"],
+        "partake": "Соло",
+        "desc": "Данное вeб-приложение является сайтом-портфолио и мини-кинопоиском, открывающимся после регистрации.",
+        "preview": "https://raw.githubusercontent.com/teplostanski/movies-explorer-frontend/main/screen.png",
+        "website": "",
+        "source": "https://github.com/teplostanski/movies-explorer-frontend"
+      },
+      {
+        "name": "Место",
+        "stack": ["HTML", "CSS", "BEM", "Adaptive", "React"],
+        "partake": "Соло",
+        "desc": "\"Mesto\" — это сайт, где люди обмениваются фотографиями. Местом может быть что угодно: город, область или какое-то заведение.",
+        "preview": "https://raw.githubusercontent.com/teplostanski/react-mesto-auth/main/screen.png",
+        "website": "https://teplostanski.github.io/react-mesto-auth/",
+        "source": "https://github.com/teplostanski/react-mesto-auth"
+      },
+      {
+        "name": "Путешествие по России",
+        "stack": ["HTML", "CSS", "BEM", "Adaptive"],
+        "partake": "Соло",
+        "desc": "Адаптивная веб-страница Путешествия по России, описывающая необыкновенные места России.",
+        "preview": "https://raw.githubusercontent.com/teplostanski/travel/master/screen.png",
+        "website": "https://teplostanski.github.io/travel/",
+        "source": "https://github.com/teplostanski/travel"
+      },
+      {
+        "name": "Научиться учиться",
+        "stack": ["HTML", "CSS", "BEM"],
+        "partake": "Соло",
+        "desc": "Это одноcтраничный сайт о современных и эффективных подходов к обучению.",
+        "preview": "https://raw.githubusercontent.com/teplostanski/how-to-learn/main/screen.png",
+        "website": "https://teplostanski.github.io/how-to-learn/index.html",
+        "source": "https://github.com/how-to-learn"
+      }
+    ],
+    "pets": [
+      {
+        "name": "aned",
+        "stack": ["HTML", "CSS", "TypeScript", "React"],
+        "partake": "Соло",
+        "desc": "Пет-проект. Онлайн редактор markdown-заметок",
+        "preview": "https://github.com/teplostanski/portfolio/raw/main/assets/images/aned.png",
+        "website": "https://aned.teplostanski.dev/",
+        "source": "https://github.com/teplostanski/aned"
+      },
+      {
+        "name": "Портфолио",
+        "stack": ["HTML", "CSS", "BEM", "React"],
+        "partake": "Соло",
+        "desc": "Сайт-портфолио",
+        "preview": "https://github.com/teplostanski/portfolio/raw/main/assets/images/portfolio.png",
+        "website": "https://teplostanski.dev/",
+        "source": "https://github.com/teplostanski/portfolio"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "langs": ["typescript", "javascript", "gnubash"],
+      "frontend": [
+        "react",
+        "astro",
+        "next.js",
+        "mobx",
+        "sass",
+        "css3",
+        "html5"
+      ],
+      "backand": ["node.js", "express"],
+      "db": ["mongodb"]
+    }
+  ],
+  "experience": {
+    "edu": [
+      {
+        "institution": "Яндекс.Практикум",
+        "faculty": "Веб Разработчик",
+        "year": "2021-2022"
+      },
+      {
+        "institution": "Педагогический колледж",
+        "faculty": "Преподаватель информатики начальных классов",
+        "year": "2011-2015"
+      }
+    ],
+    "internships": [{ "company": "Birka.uk", "year": "2023" }]
+  },
+  "links": {
+    "email": "teplostanski@yandex.ru",
+    "github": "github.com/teplostanski",
+    "telegram": "t.me/teplostanski",
+    "linkedin": "www.linkedin.com/in/%D0%B8%D0%B3%D0%BE%D1%80%D1%8C-%D1%82%D0%B5%D0%BF%D0%BB%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-38ab67254",
+    "habr-career": "career.habr.com/igorteplostanski",
+    "habr": "habr.com/ru/users/teplostanski/",
+    "stackoverflow": "stackoverflow.com/users/21089931/teplostanski",
+    "hh": "hh.ru/resume/b8fc6622ff0b63a4dd0039ed1f68396a53684e",
+    "resume": "resume.teplostanski.dev"
+  }
+}

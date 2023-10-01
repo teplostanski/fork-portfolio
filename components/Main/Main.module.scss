@@ -1,0 +1,161 @@
+@import '../../styles/vars';
+@import '../../styles/colors';
+
+.container {
+  background: $bg;
+  padding: 0 6px;
+}
+
+.hero {
+  width: 100%;
+  height: 70vh;
+  border: solid;
+  border-radius: 26px;
+  border-width: 1px;
+  margin: -1px 0 0 0;
+  overflow: hidden;
+  position: relative;
+  @media screen and (orientation: landscape) {
+    & {
+      height: 80vh;
+    }
+  }
+  @media screen and (max-height: 667px) {
+    & {
+      height: calc(95vh - 50px);
+    }
+  }
+}
+
+.image {
+  position: absolute;
+  width: $image-size;
+  height: $image-size;
+  object-fit: contain;
+  top: 22px;
+  left: 22px;
+  z-index: 1000000000;
+  border: 1px solid $border-color;
+  border-radius: 22px;
+  background: $bg;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  @media screen and (min-width: 675px) {
+    & {
+      left: 15vw;
+    }
+  }
+  @media screen and (min-width: 980px) {
+    & {
+      left: 27vw;
+      width: 27vh;
+      height: 27vh;
+    }
+  }
+  @media screen and (max-height: 667px) {
+    & {
+      width: 27vh;
+      height: 27vh;
+    }
+  }
+}
+
+.autotype {
+  position: absolute;
+  background: $bg;
+  border: 1px solid $border-color;
+  padding: 14px 20px;
+  font-size: 14px;
+  white-space: pre-line;
+  &__first {
+    top: 50%;
+    right: 14px;
+    width: 240px;
+  }
+  &__second {
+    top: 70%;
+    left: 14px;
+    min-width: 10px;
+    max-width: fit-content;
+  }
+  &::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border: 1px solid $border-color;
+    background: $bg;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+  }
+  @media screen and (min-width: 675px) {
+    & {
+      font-size: 16px;
+      width: 270px;
+    }
+    &__first {
+      right: 15vw;
+    }
+    &__second {
+      left: 14vw;
+    }
+  }
+
+  @media screen and (min-width: 980px) {
+    & {
+      font-size: 18px;
+    }
+    &__first {
+      right: 30vw;
+      width: 310px;
+    }
+    &__second {
+      left: 30vw;
+      max-width: 330px;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    & {
+      font-size: 22px;
+      width: fit-content;
+    }
+    &__first {
+      width: 380px;
+    }
+    &__second {
+      max-width: 390px;
+    }
+  }
+
+  @media screen and (orientation: landscape) and (min-width: 660px) {
+    &__first {
+      top: 15%;
+      right: 5vw;
+    }
+    &__second {
+      left: 50vw;
+      top: 55%;
+    }
+  }
+
+  @media screen and (max-height: 667px) {
+    & {
+      font-size: 12px;
+    }
+    &__first {
+      top: 40%;
+      right: 5vw;
+    }
+    &__second {
+      top: 57%;
+    }
+  }
+
+  @media screen and (max-height: 470px) {
+    &__first {
+      top: 30%;
+      right: 1vw;
+    }
+  }
+}
