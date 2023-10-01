@@ -1,9 +1,13 @@
 import { useEffect, useRef, useState } from 'react'
+import Image from 'next/image'
 import { nanoid } from 'nanoid'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 import { useWindowWidth } from '@react-hook/window-size'
 import styles from './Timeline.module.scss'
+import Link from 'next/link'
+import linkArrow from '../../assets/images/link_arrow_1.svg'
+import cn from 'classnames'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -189,6 +193,15 @@ const Timeline = () => {
             </section>
           )
         )}
+      <section id="panel" className={cn(styles.panel)}>
+        <Link className={styles.panel__last} href={'/projects'}>
+          {' '}
+          <h3 id="last" className={cn(styles.title, styles.title__last)}>
+            на страницу проектов
+          </h3>
+          <Image className={styles.arrow} src={linkArrow} alt="arrow" />
+        </Link>
+      </section>
     </div>
   )
 }
